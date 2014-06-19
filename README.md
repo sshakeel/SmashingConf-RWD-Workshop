@@ -346,3 +346,8 @@ if (browserSupportSVG()) {
 <img alt="description" src="pic1x.jpg" srcset="pic@1x.jpg 1x, pic@2x.jpg 2x">
 
 ```
+
+```html
+<img alt="description" src="pic-s.jpg" srcset="pic-s.jpg 640w, pic-l.jpg 1024w" sizes="(min-width: 350px) 50vw, 100vw">
+
+```
