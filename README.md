@@ -200,7 +200,7 @@
 - Experiment: navigation with flex-box
   - add a mobile size view
   - stacked navigation
-    - ```css
+    ```css
     	flex-direction: column-reverse;
     ```
 
