@@ -317,4 +317,21 @@ Most stuff taken from the presentation during the main conference
 ### Icon font benefits
 - easy color variations
 - good browser support
-- 
+- has its drawbacks
+
+### SVG/PNG with grunticon
+- emerging best practice
+- base64 encoded svgs
+
+```javascript
+if (browserSupportSVG()) {
+	loadCSS(svgURL);
+
+} else {
+	loadCSS(pngURL);
+}
+
+```
+
+### Responsive images: use cases
+
