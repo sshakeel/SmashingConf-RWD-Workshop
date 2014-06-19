@@ -1,21 +1,22 @@
 
-# Workshop files
+#### Workshop files
 - https://github.com/ahume/responsive-roadtrip
 
 # Gaudian Responsive Strategy
-Guardian started with a brand new mobile only site
-started working up from there
+- Guardian started with a brand new mobile only site
+- started working up from there
 
 
-# Mobile first design
+### Mobile first design
 - simplify
 - prioritize
 - stealth design
 - core html content first
 - core styles first
 
-# SEO
-- Redirect performanace -> SEO complexity
+### SEO
+- Redirect performance leads to SEO complexity 
+- Interesting claim. Did not receive a lot of details on this. Need to research this more.
 
 # RWD Approaches 
 
@@ -23,6 +24,7 @@ started working up from there
 - refactor existing desktop site
 - add stylesheets for smaller screens
 - media in style tags
+- e.g. current XE.com
 
 **pros**
 - simple
@@ -53,6 +55,7 @@ started working up from there
 ### 3-New Mobile Site
 - leave existing 'desktop' site
 - start mobile from scratch
+- e.g. older XE.com
 
 **pros**
 - politically simple
@@ -68,6 +71,7 @@ started working up from there
 ### 4-mobile first responsive
 - start with mobile focus
 - progressively enhance to desktop
+- e.g. gaurdian.co.uk
 
 **pros**
 - fresh start
@@ -77,9 +81,6 @@ started working up from there
 - politically difficult
 
 # Design Prototyping
-
-## Pattern Portfolio
-- 
 
 ## Styleguides
 - and variations
@@ -103,22 +104,24 @@ started working up from there
 - modules
 - components
 - Elements
-- "not designing pages, design system of components"
+- "don't design pages, design system of components"
 
-## Atomic Design
-- atoms
-- molecules
-- organisms
-- templates
-- pages
+## Atomic Design (google this)
+1. atoms
+2. molecules
+3. organisms
+4. templates
+5. pages
 
 ## Pattern Lab 
-- Pattern Lab library framework (google this sucker)
-- php, node.js, .NET
+- Pattern Lab library framework (google this)
+- Based on PHP, node.js, .NET
+
+## Pattern Portfolio
+- http://clearleft.com/thinks/onpatternportfolios/
 
 # Navigation Patterns
-
-- bradfrost.github.io/this-is-responsive/design-patterns
+- http://bradfrost.github.io/this-is-responsive/design-patterns
 
 ## Different Approaches
 - Nav first Approach (mostly desktop)
@@ -140,11 +143,11 @@ started working up from there
 ## Browser Groups
 - graded browser support
 - Cutting the mustard
-  - basically the apporach XE is taking
+  - basically the apporach XE has taken with the new redesign
   - two buckets
   - simplified development
   - simplified language
-- check out gaurdian's frontend code on github for browser support (github.com/gaurdian/frontend)
+- check out gaurdian's frontend code on github for browser support (http://github.com/gaurdian/frontend)
 
 # Layout Media Queries
 
@@ -162,7 +165,7 @@ started working up from there
 ### Meta Viewport
 - viewport meta tag
   - layout = visual (mobile)
-- @viewport {} (coming soon)
+- @viewport {} (coming soon - google this)
 
 ### Media Types
 - print, screen, etc
