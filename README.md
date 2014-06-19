@@ -306,4 +306,15 @@ Most stuff taken from the presentation during the main conference
 
 ### Images on the web
 - flexible, scalable, adaptable using % and ems
+- used as interface elements, content and decoration
+
+### SVG Benefits
+- Fully native to the web
+- flexible, adaptable, dynamic
+- the real image format
+- less buggy
+
+### Icon font benefits
+- easy color variations
+- good browser support
 - 
