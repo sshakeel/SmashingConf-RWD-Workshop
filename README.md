@@ -200,7 +200,9 @@
 - Experiment: navigation with flex-box
   - add a mobile size view
   - stacked navigation
-    - flex-direction: column-reverse;
+    - ```css
+    	flex-direction: column-reverse;
+    ```
 
 ### Grid Layout
 - true source independent layout
@@ -209,7 +211,14 @@
 - new syntax issues still resolving
 
 **Example: Container**
-- .container {display: grid; ...}
+
+```css
+	.container {
+		display: grid; 
+		...
+	}
+```
+
 - Framework: http://unsemantic.com/
 - E.g.: https://github.com/ahume/responsive-examples/blob/master/grid-layout.html
 
@@ -256,5 +265,3 @@
     - OR use "async" and "defer" attributes in "script" tags (limited support)
 - use critical CSS as inline
     - https://github.com/pocketjoso/penthouse
-
-### 
