@@ -7,7 +7,7 @@ Guardian started with a brand new mobile only site
 started working up from there
 
 
-# mobile first design
+# Mobile first design
 - simplify
 - prioritize
 - stealth design
@@ -153,3 +153,38 @@ started working up from there
 ### Pixels
 - device pixels
 - css pixels
+
+### Viewports
+- Visual Viewport
+  - actual portion you can see on the screen
+- Layout Viewport
+
+### Meta Viewport
+- viewport meta tag
+  - layout = visual (mobile)
+- @viewport {} (coming soon)
+
+### Media Types
+- print, screen, etc
+
+### Media Queries
+- CHaracteristics of browsing env
+- screen, viewport size, etc
+- viewport is all we have
+- tightly couples components to viewport size
+- discourages component based design/dev
+
+### Match Media
+- JS based media queries
+- see picture on phone
+
+### Element queries
+- vary layout based on parent element
+- self contained components
+- more flexibility
+- umm...don't exist
+- (can we use SASS for this?)
+
+### Media Query Support
+- all modern browsers
+- not supported in IE8
