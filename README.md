@@ -340,3 +340,9 @@ if (browserSupportSVG()) {
 - art direction
 - media feature/type
 
+### Image element
+
+```html
+<img alt="description" src="pic1x.jpg" srcset="pic@1x.jpg 1x, pic@2x.jpg 2x">
+
+```
