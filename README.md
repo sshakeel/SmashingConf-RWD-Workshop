@@ -236,5 +236,8 @@
 - automate stylesheet creation
   - https://github.com/guardian/sass-mq
 
-# Performance
+# Performance and Resilience
+- some stuff taken from the presentation during the main conference
+  - https://speakerdeck.com/andyhume/building-for-performance-and-resilience
+## Performance 101
 
