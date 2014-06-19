@@ -380,4 +380,3 @@ if (browserSupportSVG()) {
 
 ### Example: NFL Playoffs
 - http://www.sbnation.com/a/nfl-playoffs-2014
-- 
