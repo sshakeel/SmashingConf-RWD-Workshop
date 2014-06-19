@@ -340,7 +340,7 @@ if (browserSupportSVG()) {
 - art direction
 - media feature/type
 
-### Image element
+### New: Image element
 
 ```html
 <img alt="description" src="pic1x.jpg" srcset="pic@1x.jpg 1x, pic@2x.jpg 2x">
@@ -352,8 +352,15 @@ if (browserSupportSVG()) {
 
 ```
 
-### Picture element
+### New: Picture element
 
 **add image here**
 
 - picture tag, srcset, polyfill: https://github.com/scottjehl
+
+### Conditional Loading
+- enhance with extra content
+
+### Ajax include pattern
+- for Modular Content
+- https://github.com/filamentgroup/Ajax-Include-Pattern/
