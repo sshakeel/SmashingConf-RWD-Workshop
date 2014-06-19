@@ -2,7 +2,7 @@
 **Workshop files**
 - https://github.com/ahume/responsive-roadtrip
 
-# Gaudian.co.uk Responsive Strategy
+# Guardian.co.uk Responsive Strategy
 - Started with a brand new mobile only site
 - worked up to different interfaces from there
 
@@ -71,7 +71,7 @@
 ### 4-mobile first responsive
 - start with mobile focus
 - progressively enhance to desktop
-- e.g. gaurdian.co.uk
+- e.g. guardian.co.uk
 
 **pros**
 - fresh start
@@ -128,7 +128,7 @@
 - link to footer Approach (thesession.org)
 - Menu Toggle (starbucks.com)
 - Select menu (retreatsforgeeks.com)
-- Progressive Disclosure (gaurdian.co.uk)
+- Progressive Disclosure (guardian.co.uk)
   - collect the items that cannot fit into visible nav into a menu toggle
   - hybrid full + menu toggle
 
@@ -146,7 +146,7 @@
   - two buckets
   - simplified development
   - simplified language
-- check out gaurdian's frontend code on github for JS related to browser support (http://github.com/gaurdian/frontend)
+- check out guardian's frontend code on github for JS related to browser support (http://github.com/guardian/frontend)
 
 # Layout Media Queries
 
@@ -215,4 +215,23 @@
 - Framework: http://unsemantic.com/
 - E.g.: https://github.com/ahume/responsive-examples/blob/master/grid-layout.html
 
-### 
+### Dealing with IE8
+- does cut the mustard (maybe?)
+- does not support media queries
+
+**Strategy: 1** 
+- leave it
+- send it a mobile layout
+- cost of supporting is high
+- look at your user stats
+
+**Strategy: 2**
+- polyfill media queries
+- performance overhead
+
+**Strategy: 3**
+- IE 8 only stylesheet
+- deliver layout CSS in conditional HTML comment for IE
+  - XE.com has implemented this in the new redesign
+- automate stylesheet creation
+  - https://github.com/guardian/sass-mq
