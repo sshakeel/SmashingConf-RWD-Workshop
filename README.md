@@ -120,7 +120,7 @@
 - http://clearleft.com/thinks/onpatternportfolios/
 
 # Navigation Patterns
-- http://bradfrost.github.io/this-is-responsive/patterns.html
+- http://bradfrost.github.io/this-is-responsive/patterns.html#navigation
 
 ### Several Different Approaches
 - Nav first Approach (mostly desktop)
