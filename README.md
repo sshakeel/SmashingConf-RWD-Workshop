@@ -244,7 +244,7 @@
   - https://github.com/guardian/sass-mq
 
 # Performance and Resilience
-- most stuff taken from the presentation during the main conference
+Most stuff taken from the presentation during the main conference
   - https://speakerdeck.com/andyhume/building-for-performance-and-resilience
 
 ### Performance Priority
