@@ -367,5 +367,17 @@ if (browserSupportSVG()) {
 
 # Responsive Tables
 - Guardian.co.uk took the approach of eliminating information while maintaining classic table look
-- as seen in their points table for FIFA World Cup 2014 points table
+- As seen in their points table for FIFA World Cup 2014 points table
 
+### Tables into graphs
+- Vitaly showed an example of how you can turn tables into graphs in mobile resolution
+
+### Titled Headers
+- One example had table headers tilted at 45 degrees
+
+### Tables with display filters for column
+- Another example had a "Display" filter dropdown for checking on and off columns
+
+### Example: NFL Playoffs
+- http://www.sbnation.com/a/nfl-playoffs-2014
+- 
