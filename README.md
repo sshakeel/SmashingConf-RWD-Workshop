@@ -82,47 +82,47 @@
 
 # Design Prototyping
 
-## Styleguides
+### Styleguides
 - potential design deliverables
 - (instead of focusing on how to make a web site) focus on tools needed for deisng/dev process
 - spectrum from design to dev
 
-## Style Tiles
+### Style Tiles
 - http://styletil.es
 - sits between moodboards and precise mockups
 - catalyst for discusssions about the goals of an interface
 
-## Element collage
+### Element collage
 - http://danielmall.com/articles/rif-element-collages
 
-## Style prototype
+### Style prototype
 - http://sparkbox.github.io/style-prototype
 
-## Common Themes
+### Common Themes
 - modules
 - components
 - elements
 - "don't design pages, design system of components"
 
-## Concept: Atomic Design (google this)
+### Concept: Atomic Design (google this)
 1. atoms
 2. molecules
 3. organisms
 4. templates
 5. pages
 
-## Framework: Pattern Lab for Atomic Design
+### Framework: Pattern Lab for Atomic Design
 - http://patternlab.io/
 - Pattern Lab library framework (google this)
 - Based on PHP, node.js, .NET
 
-## Pattern Portfolio
+### Pattern Portfolio
 - http://clearleft.com/thinks/onpatternportfolios/
 
 # Navigation Patterns
 - http://bradfrost.github.io/this-is-responsive/design-patterns
 
-## Several Different Approaches
+### Several Different Approaches
 - Nav first Approach (mostly desktop)
 - Content First Approach (mostly mobile)
 - link to footer Approach (thesession.org)
@@ -134,12 +134,12 @@
 
 # Browser Support
 
-## Defining "Support"
+### Defining "Support"
 - should work in *all* browsers
 - fix bugs for the nth percentile
   - unless doing so is disproportionately costly
 
-## Browser Groups
+### Browser Groups
 - graded browser support
 - "Cutting the mustard"
   - XE.com has taken similar apporach with the new redesign
@@ -149,8 +149,6 @@
 - check out guardian's frontend code on github for JS related to browser support (http://github.com/guardian/frontend)
 
 # Layout Media Queries
-
-## Layout
 
 ### Pixels
 - device pixels
@@ -198,7 +196,7 @@
 - Not ideal for layout
 - use for self-contained components
 - http://css-tricks.com/snippets/css/a-guide-to-flexbox/
-- RTL orientation inherited from parent container (sweet!)
+- RTL orientation inherited from parent container (WOO!)
 - Experiment: navigation with flex-box
   - add a mobile size view
   - stacked navigation
@@ -237,7 +235,26 @@
   - https://github.com/guardian/sass-mq
 
 # Performance and Resilience
-- some stuff taken from the presentation during the main conference
+- most stuff taken from the presentation during the main conference
   - https://speakerdeck.com/andyhume/building-for-performance-and-resilience
-## Performance 101
 
+### Performance Priority
+1. core content
+2. Enhancement (css, etc)
+3. Leftovers
+
+### Optimizing: First Byte
+- DNS lookup -> TCP connect -> HTTP request (SSL handshake) -> Server time -> HTTP response
+- HTTP redirects happen at HTTP request. They start again at DNS lookup.
+  - So yeah, eliminate redirects
+
+### Optimizing: Start Render
+- HTML (pre-)Parser -> (remote JS) -> DOM Tree -> Render Tree -> Layout -> Paint
+- remote JS breaks pre-parser
+- Avoid blocking scripts
+    - move scripts to end of body
+    - OR use "async" and "defer" attributes in "script" tags (limited support)
+- use critical CSS as inline
+    - https://github.com/pocketjoso/penthouse
+
+### 
