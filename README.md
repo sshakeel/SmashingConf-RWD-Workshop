@@ -1,28 +1,34 @@
-## Gaudian Responsive Strategy
+
+# Workshop files
+- https://github.com/ahume/responsive-roadtrip
+
+# Gaudian Responsive Strategy
 Guardian started with a brand new mobile only site
 started working up from there
 
 
-## mobile first design
+# mobile first design
 - simplify
 - prioritize
 - stealth design
 - core html content first
 - core styles first
 
-## SEO
-- Redirect performanace >>> SEO complexity
+# SEO
+- Redirect performanace -> SEO complexity
 
-## RWD Approaches 
+# RWD Approaches 
 
 ### 1-Retrofitting
 - refactor existing desktop site
 - add stylesheets for smaller screens
-- media in "style" tags
+- media in style tags
+
 **pros**
 - simple
 - less design complocations
 -politically simpler
+
 **cons**
 - might not be simple
 - layout only focus
@@ -34,10 +40,12 @@ started working up from there
 - page by page
 - component by compoenent
 - eg. microsoft
+
 **pros**
 - politically simpler
 - can prioritize most important parts
 - learning as we go
+
 **cons**
 - consistency
 - technical complexity
@@ -51,6 +59,7 @@ started working up from there
 - starts with flexibility
 - performance foocus
 - layout scale up
+
 **cons**
 - still a separate site
 - redirects, consistency, SEO
@@ -59,14 +68,13 @@ started working up from there
 ### 4-mobile first responsive
 - start with mobile focus
 - progressively enhance to desktop
+
 **pros**
 - fresh start
+
 **cons**
 - time
 - politically difficult
-
-## Examples
-- https://github.com/ahume/responsive-roadtrip
 
 # Design Prototyping
 
@@ -95,7 +103,7 @@ started working up from there
 - modules
 - components
 - Elements
-"not designing pages, design system of components"
+- "not designing pages, design system of components"
 
 ## Atomic Design
 - atoms
@@ -110,6 +118,8 @@ started working up from there
 
 # Navigation Patterns
 
+- bradfrost.github.io/this-is-responsive/design-patterns
+
 ## Different Approaches
 - Nav first Approach (mostly desktop)
 - Content First Approach (mostly mobile)
@@ -119,4 +129,27 @@ started working up from there
 - Progressive Disclosure (gaurdian.co.uk)
   - collect the items that cannot fit into visible nav into a menu toggle
   - hybrid full + menu toggle
-  - 
+
+# Browser Support
+
+## Defining "Support"
+- works in *all* browsers
+- fix bugs for the nth percentile
+  - unless doing so is disproportionaltely costly
+
+## Browser Groups
+- graded browser support
+- Cutting the mustard
+  - basically the apporach XE is taking
+  - two buckets
+  - simplified development
+  - simplified language
+- check out gaurdian's frontend code on github for browser support (github.com/gaurdian/frontend)
+
+# Layout Media Queries
+
+## Layout
+
+### Pixels
+- device pixels
+- css pixels
