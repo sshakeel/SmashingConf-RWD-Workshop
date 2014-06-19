@@ -202,3 +202,15 @@
 - Experiment: navigation with flex-box
   - add a mobile size view
   - stacked navigation
+    - flex-direction: column-reverse;
+
+### Grid Layout
+- true source independent layout
+- sets up grid on the page
+- IE10/11, Chrome (behind flag)
+- syntax issues still resolving
+
+**Example: Container**
+- .container {display: grid; ...}
+
+
