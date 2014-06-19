@@ -199,8 +199,8 @@
 - RTL orientation inherited from parent container (WOO!)
 - Experiment: navigation with flex-box
   - add a mobile size view
-  - stacked navigation
-    ```css
+  - stacked navigation using...
+    ```
     	flex-direction: column-reverse;
     ```
 
