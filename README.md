@@ -1,10 +1,10 @@
 
-#### Workshop files
+**Workshop files**
 - https://github.com/ahume/responsive-roadtrip
 
-# Gaudian Responsive Strategy
-- Guardian started with a brand new mobile only site
-- started working up from there
+# Gaudian.co.uk Responsive Strategy
+- Started with a brand new mobile only site
+- worked up to different interfaces from there
 
 
 ### Mobile first design
@@ -15,30 +15,30 @@
 - core styles first
 
 ### SEO
-- Redirect performance leads to SEO complexity 
-- Interesting claim. Did not receive a lot of details on this. Need to research this more.
+- Bad redirect performance leads to SEO complexity 
+- (Interesting claim. Did not receive a lot of details on this. Need to research this more.)
 
 # RWD Approaches 
 
-### 1-Retrofitting
+### 1- Retrofitting
 - refactor existing desktop site
 - add stylesheets for smaller screens
-- media in style tags
+- could use media query in style tags in simpler cases
 - e.g. current XE.com
 
 **pros**
 - simple
-- less design complocations
--politically simpler
+- less design complications
+- politically simpler
 
 **cons**
 - might not be simple
 - layout only focus
-- performace
+- performace concerns
 - requires media query support
 
-### 2-Step by step
-- incremental improv
+### 2- Step-by-step
+- incremental improvment
 - page by page
 - component by compoenent
 - eg. microsoft
@@ -49,23 +49,23 @@
 - learning as we go
 
 **cons**
-- consistency
+- consistency issues
 - technical complexity
 
-### 3-New Mobile Site
+### 3- New Mobile Site
 - leave existing 'desktop' site
 - start mobile from scratch
-- e.g. older XE.com
+- e.g. older XE.com mobile site
 
 **pros**
 - politically simple
 - starts with flexibility
-- performance foocus
+- performance focus
 - layout scale up
 
 **cons**
 - still a separate site
-- redirects, consistency, SEO
+- redirects and consistency issues, SEO
 - scale up design can be hard
 
 ### 4-mobile first responsive
@@ -77,20 +77,19 @@
 - fresh start
 
 **cons**
-- time
+- need lots of time
 - politically difficult
 
 # Design Prototyping
 
 ## Styleguides
-- and variations
 - potential design deliverables
-- tools for deisng/dev process
+- (instead of focusing on how to make a web site) focus on tools needed for deisng/dev process
 - spectrum from design to dev
 
 ## Style Tiles
 - http://styletil.es
-- sit between oodboards and precise mockups
+- sits between moodboards and precise mockups
 - catalyst for discusssions about the goals of an interface
 
 ## Element collage
@@ -98,22 +97,21 @@
 
 ## Style prototype
 - http://sparkbox.github.io/style-prototype
-- into
 
 ## Common Themes
 - modules
 - components
-- Elements
+- elements
 - "don't design pages, design system of components"
 
-## Atomic Design (google this)
+## Concept: Atomic Design (google this)
 1. atoms
 2. molecules
 3. organisms
 4. templates
 5. pages
 
-## Pattern Lab 
+## Framework: Pattern Lab 
 - Pattern Lab library framework (google this)
 - Based on PHP, node.js, .NET
 
@@ -123,7 +121,7 @@
 # Navigation Patterns
 - http://bradfrost.github.io/this-is-responsive/design-patterns
 
-## Different Approaches
+## Several Different Approaches
 - Nav first Approach (mostly desktop)
 - Content First Approach (mostly mobile)
 - link to footer Approach (thesession.org)
@@ -136,18 +134,18 @@
 # Browser Support
 
 ## Defining "Support"
-- works in *all* browsers
+- should work in *all* browsers
 - fix bugs for the nth percentile
-  - unless doing so is disproportionaltely costly
+  - unless doing so is disproportionately costly
 
 ## Browser Groups
 - graded browser support
-- Cutting the mustard
-  - basically the apporach XE has taken with the new redesign
+- "Cutting the mustard"
+  - XE.com has taken similar apporach with the new redesign
   - two buckets
   - simplified development
   - simplified language
-- check out gaurdian's frontend code on github for browser support (http://github.com/gaurdian/frontend)
+- check out gaurdian's frontend code on github for JS related to browser support (http://github.com/gaurdian/frontend)
 
 # Layout Media Queries
 
@@ -161,6 +159,7 @@
 - Visual Viewport
   - actual portion you can see on the screen
 - Layout Viewport
+  - controled by css
 
 ### Meta Viewport
 - viewport meta tag
@@ -171,17 +170,18 @@
 - print, screen, etc
 
 ### Media Queries
-- CHaracteristics of browsing env
+- Characteristics of browsing environment
 - screen, viewport size, etc
 - viewport is all we have
 - tightly couples components to viewport size
 - discourages component based design/dev
+  - Opinion: This is where things should be headed in the future
 
 ### Match Media
 - JS based media queries
 - see picture on phone
 
-### Element queries
+### Concept: Element queries
 - vary layout based on parent element
 - self contained components
 - more flexibility
