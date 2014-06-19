@@ -11,7 +11,7 @@ started working up from there
 - core styles first
 
 ## SEO
-- Redirect performanace -> SEO complexity
+- Redirect performanace >>> SEO complexity
 
 ## RWD Approaches 
 
