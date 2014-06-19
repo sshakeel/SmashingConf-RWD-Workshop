@@ -292,4 +292,12 @@ Most stuff taken from the presentation during the main conference
   - Hinting
     - test things
     - deliver a readable web font or no web font
-      
+  - Caching
+    - HTTP caching is vital
+
+### Progressive Enhancement
+- Modern browsers only
+  - WOFF support only
+    - localStorage available
+
+**add image here**
