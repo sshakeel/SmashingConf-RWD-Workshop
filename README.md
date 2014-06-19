@@ -356,7 +356,7 @@ if (browserSupportSVG()) {
 
 **add image here**
 
-- picture tag, srcset, polyfill: https://github.com/scottjehl
+- picture tag, srcset, polyfill: https://github.com/scottjehl/picturefill
 
 ### Conditional Loading
 - enhance with extra content
@@ -364,3 +364,8 @@ if (browserSupportSVG()) {
 ### Ajax include pattern
 - for Modular Content
 - https://github.com/filamentgroup/Ajax-Include-Pattern/
+
+# Responsive Tables
+- Guardian.co.uk took the approach of eliminating information while maintaining classic table look
+- as seen in their points table for FIFA World Cup 2014 points table
+
