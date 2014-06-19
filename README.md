@@ -266,3 +266,30 @@ Most stuff taken from the presentation during the main conference
     - OR use "async" and "defer" attributes in "script" tags (limited support)
 - use critical CSS as inline
     - https://github.com/pocketjoso/penthouse
+
+### Optimizing: Path to Render
+- Path to render starts right after HTML and CSS is loaded
+- What causes rendering issues?
+  - no fallback (e.g. ie8)
+  - blocking
+  - blocking + timeout (timeout = network issues)
+- Solution
+  - Provide control over font loading
+  - WebFontLoader
+    - **insert picture here**
+    - Requirements
+      - never block rendering
+      - avoid flash of fallback font
+      - compress and subset fonts as much as possible
+      - reduce http requests as much as possible
+      - cache as aggressively as browsers allow
+  - base64 encoding
+  - defer fonts for second page
+  - subsetting
+    - fonts must be as small as possible
+    - subset your primary character set
+    - strip out any unecessary icon glyphs
+  - Hinting
+    - test things
+    - deliver a readable web font or no web font
+      
