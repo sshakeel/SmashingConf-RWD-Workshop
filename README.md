@@ -208,9 +208,11 @@
 - true source independent layout
 - sets up grid on the page
 - IE10/11, Chrome (behind flag)
-- syntax issues still resolving
+- new syntax issues still resolving
 
 **Example: Container**
 - .container {display: grid; ...}
+- Framework: http://unsemantic.com/
+- E.g.: https://github.com/ahume/responsive-examples/blob/master/grid-layout.html
 
-
+### 
