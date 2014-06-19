@@ -334,4 +334,9 @@ if (browserSupportSVG()) {
 ```
 
 ### Responsive images: use cases
+- resolution based selection
+- viewport based selection
+- device-pixel-ratio based selection
+- art direction
+- media feature/type
 
