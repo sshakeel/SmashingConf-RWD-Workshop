@@ -301,3 +301,9 @@ Most stuff taken from the presentation during the main conference
     - localStorage available
 
 **add image here**
+
+# Responsive Design Images
+
+### Images on the web
+- flexible, scalable, adaptable using % and ems
+- 
