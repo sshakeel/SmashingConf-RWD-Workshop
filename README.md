@@ -351,3 +351,9 @@ if (browserSupportSVG()) {
 <img alt="description" src="pic-s.jpg" srcset="pic-s.jpg 640w, pic-l.jpg 1024w" sizes="(min-width: 350px) 50vw, 100vw">
 
 ```
+
+### Picture element
+
+**add image here**
+
+- picture tag, srcset, polyfill: https://github.com/scottjehl
