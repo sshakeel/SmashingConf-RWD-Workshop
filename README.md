@@ -18,7 +18,7 @@ started working up from there
 ### 1-Retrofitting
 - refactor existing desktop site
 - add stylesheets for smaller screens
-- media in <style> tags
+- media in "style" tags
 **pros**
 - simple
 - less design complocations
