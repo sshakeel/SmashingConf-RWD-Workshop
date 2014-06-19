@@ -5,7 +5,7 @@
 # Guardian.co.uk Responsive Strategy
 - Started with a brand new mobile only site
 - worked up to different interfaces from there
-
+![Responsive Design Architecture](/imgs/rwd-architecture.jpg?raw=true "Responsive Design Architecture")
 
 ### Mobile first design
 - simplify
@@ -147,6 +147,7 @@
   - simplified development
   - simplified language
 - check out guardian's frontend code on github for JS related to browser support (http://github.com/guardian/frontend)
+![Responsive JS](/imgs/responsive-js.jpg?raw=true "Responsive JS")
 
 # Layout Media Queries
 
@@ -178,7 +179,7 @@
 
 ### Match Media
 - JS based media queries
-- see picture on phone
+![Match Media Code](/imgs/match-media.jpg?raw=true "Match Media Code")
 
 ### Concept: Element queries
 - vary layout based on parent element
