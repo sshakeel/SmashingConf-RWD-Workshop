@@ -111,7 +111,8 @@
 4. templates
 5. pages
 
-## Framework: Pattern Lab 
+## Framework: Pattern Lab for Atomic Design
+- http://patternlab.io/
 - Pattern Lab library framework (google this)
 - Based on PHP, node.js, .NET
 
@@ -191,3 +192,13 @@
 ### Media Query Support
 - all modern browsers
 - not supported in IE8
+
+### Flex-box
+- decent support, IE 10 and 11
+- Not ideal for layout
+- use for self-contained components
+- http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- RTL orientation inherited from parent container (sweet!)
+- Experiment: navigation with flex-box
+  - add a mobile size view
+  - stacked navigation
