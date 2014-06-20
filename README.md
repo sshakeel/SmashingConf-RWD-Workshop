@@ -367,6 +367,7 @@ Most stuff taken from the presentation during the main conference
 - has its drawbacks
 
 ### SVG/PNG with grunticon
+- https://github.com/filamentgroup/grunticon
 - emerging best practice
 - base64 encoded svgs
 
