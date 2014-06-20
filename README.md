@@ -5,6 +5,7 @@
 # Guardian.co.uk Responsive Strategy
 - Started with a brand new mobile only site
 - worked up to different interfaces from there
+- With the following architecture
 ![Responsive Design Architecture](/imgs/rwd-architecture.jpg?raw=true "Responsive Design Architecture")
 
 ### Mobile first design
