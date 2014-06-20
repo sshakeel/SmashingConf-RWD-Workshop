@@ -424,7 +424,7 @@ if (browserSupportSVG()) {
 
 # Responsive Tables
 - Guardian.co.uk took the approach of eliminating information while maintaining classic table look
-- As seen in their points table for FIFA World Cup 2014 points table
+- As seen here: http://www.theguardian.com/football/tables
 
 ### Tables into graphs
 - Vitaly showed an example of how you can turn tables into graphs in mobile resolution
