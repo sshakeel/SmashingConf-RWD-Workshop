@@ -344,10 +344,8 @@ Most stuff taken from the presentation during the main conference
 
 ### Progressive Enhancement
 - Modern browsers only
-  - WOFF support only
-    - localStorage available
-
-**add image here**
+- WOFF support only
+- localStorage where available
 
 # Responsive Design Images
 
@@ -401,9 +399,18 @@ if (browserSupportSVG()) {
 
 ### New: Picture element
 
-**add image here**
-
 - picture tag, srcset, polyfill: https://github.com/scottjehl/picturefill
+
+```html
+
+<picture>
+	<source srcset="small@1x.jpg 1x, small@2x.jpg 2x">
+	<source srcset="medium@1x.jpg 1x, medium@2x.jpg 2x" media="(min-width: 18em)">
+	<source srcset="large@1x.jpg 1x, large@2x.jpg 2x" media="(min-width: 32em)">
+	<img src="small.jpg" alt="Description">
+</picture>
+
+```
 
 ### Conditional Loading
 - enhance with extra content
