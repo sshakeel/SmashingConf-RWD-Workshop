@@ -31,7 +31,6 @@
 - simple
 - less design complications
 - politically simpler
-
 **cons**
 - might not be simple
 - layout only focus
@@ -48,7 +47,6 @@
 - politically simpler
 - can prioritize most important parts
 - learning as we go
-
 **cons**
 - consistency issues
 - technical complexity
@@ -63,7 +61,6 @@
 - starts with flexibility
 - performance focus
 - layout scale up
-
 **cons**
 - still a separate site
 - redirects and consistency issues, SEO
@@ -76,7 +73,6 @@
 
 **pros**
 - fresh start
-
 **cons**
 - need lots of time
 - politically difficult
@@ -150,7 +146,6 @@
 - Reference: Guardian's frontend code for JS based to browser support (http://github.com/guardian/frontend)
 
 ```javascript
-
 var guardian = {
 	isModernBrowser: (
 		'querySelector' in document &&
@@ -158,7 +153,6 @@ var guardian = {
 		'localStorage' in window
 	)
 };
-
 ```
 
 # Layout Media Queries
@@ -176,7 +170,10 @@ var guardian = {
 ### Meta Viewport
 - viewport meta tag
   - layout = visual (mobile)
-- @viewport {} (coming soon - google this)
+```
+@viewport {...}
+``` 
+(coming soon - google this)
 
 ### Media Types
 - print, screen, etc
@@ -193,7 +190,6 @@ var guardian = {
 - JS based media queries
 
 ```javascript
-
 var query = window.matchMedia ("(orientation:portrait)");
 
 if (query.matches) {
@@ -201,7 +197,6 @@ if (query.matches) {
 } else {
 	// currently in landscape
 }
-
 ```
 
 ### Concept: Element queries
@@ -303,14 +298,11 @@ Most stuff taken from the presentation during the main conference
     *traditional way*
 
     ```html
-
 	<link rel="stylesheet" href="/myfonts.css">
-
     ```
    *WebFontLoader*
 
     ```javascript
-
 	var WebFontConfig {
 		custom: {
 			families: ['Clarendon', 'Clarendon Bold'], 
@@ -341,6 +333,12 @@ Most stuff taken from the presentation during the main conference
     - deliver a readable web font or no web font
   - Caching
     - HTTP caching is vital
+  - Text Rendering for guardian.co.uk
+    - Before
+    ![Guardian Before Text Render](/imgs/guardian-before-text-render.jpg?raw=true "Guardian Before Text Render")
+    - After
+    ![Guardian After Text Render](/imgs/guardian-after-text-render.jpg?raw=true "Guardian After Text Render")
+
 
 ### Progressive Enhancement
 - Modern browsers only
