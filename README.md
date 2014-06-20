@@ -147,8 +147,19 @@
   - two buckets
   - simplified development
   - simplified language
-- check out guardian's frontend code on github for JS related to browser support (http://github.com/guardian/frontend)
-![Responsive JS](/imgs/responsive-js.jpg?raw=true "Responsive JS")
+- Reference: Guardian's frontend code for JS based to browser support (http://github.com/guardian/frontend)
+
+```javascript
+
+var guardian = {
+	isModernBrowser: (
+		'querySelector' in document &&
+		'addEventListener' in window &&
+		'localStorage' in window
+	)
+};
+
+```
 
 # Layout Media Queries
 
@@ -180,7 +191,18 @@
 
 ### Match Media
 - JS based media queries
-![Match Media Code](/imgs/match-media.jpg?raw=true "Match Media Code")
+
+```javascript
+
+var query = window.matchMedia ("(orientation:portrait)");
+
+if (query.matches) {
+	// currently in portrait
+} else {
+	// currently in landscape
+}
+
+```
 
 ### Concept: Element queries
 - vary layout based on parent element
@@ -277,7 +299,28 @@ Most stuff taken from the presentation during the main conference
 - Solution
   - Provide control over font loading
   - WebFontLoader
-    - **insert picture here**
+    
+    ```html
+
+	~~<link rel="stylesheet" href="/myfonts.css">~~
+
+    ```
+
+    ```javascript
+
+	var WebFontConfig {
+		custom: {
+			families: ['Clarendon', 'Clarendon Bold'], 
+			urls: ['/myfonts.css']
+		}
+    };
+
+    var s = document.createElement('script');
+    s.src = '//ajax.googleapis.com/webfonts.js';
+    document.head.appendChild(s);
+
+    ```
+
     - Requirements
       - never block rendering
       - avoid flash of fallback font
