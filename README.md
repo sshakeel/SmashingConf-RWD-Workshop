@@ -423,7 +423,7 @@ if (browserSupportSVG()) {
 - https://github.com/filamentgroup/Ajax-Include-Pattern/
 
 # Responsive Tables
-- Guardian.co.uk took the approach of eliminating information while maintaining classic table look
+- Guardian took the approach of eliminating information while maintaining classic table look
 - As seen here: http://www.theguardian.com/football/tables
 
 ### Tables into graphs
