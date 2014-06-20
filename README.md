@@ -302,7 +302,7 @@ Most stuff taken from the presentation during the main conference
     
     ```html
 
-	~~ <link rel="stylesheet" href="/myfonts.css"> ~~
+	<del> <link rel="stylesheet" href="/myfonts.css"> </del>
 
     ```
 
