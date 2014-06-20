@@ -31,6 +31,7 @@
 - simple
 - less design complications
 - politically simpler
+
 **cons**
 - might not be simple
 - layout only focus
@@ -47,6 +48,7 @@
 - politically simpler
 - can prioritize most important parts
 - learning as we go
+
 **cons**
 - consistency issues
 - technical complexity
@@ -61,6 +63,7 @@
 - starts with flexibility
 - performance focus
 - layout scale up
+
 **cons**
 - still a separate site
 - redirects and consistency issues, SEO
@@ -73,6 +76,7 @@
 
 **pros**
 - fresh start
+
 **cons**
 - need lots of time
 - politically difficult
@@ -110,8 +114,8 @@
 
 ### Framework: Pattern Lab for Atomic Design
 - http://patternlab.io/
-- Pattern Lab library framework (google this)
-- Based on PHP, node.js, .NET
+  - Pattern Lab library framework
+  - Based on PHP, node.js, .NET
 
 ### Pattern Portfolio
 - http://clearleft.com/thinks/onpatternportfolios/
