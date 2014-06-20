@@ -349,7 +349,7 @@ Most stuff taken from the presentation during the main conference
 - WOFF support only
 - localStorage where available
 
-# Responsive Design Images
+# Responsive Images
 
 ### Images on the web
 - flexible, scalable, adaptable using % and ems
