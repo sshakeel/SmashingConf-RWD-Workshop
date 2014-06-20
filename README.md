@@ -307,17 +307,17 @@ Most stuff taken from the presentation during the main conference
    *WebFontLoader*
 
     ```javascript
-	var WebFontConfig {
-		custom: {
-			families: ['Clarendon', 'Clarendon Bold'], 
-			urls: ['/myfonts.css']
-		}
+    var WebFontConfig {
+        custom: {
+          families: ['Clarendon', 'Clarendon Bold'], 
+          urls: ['/myfonts.css']
+        }
     };
 
     var s = document.createElement('script');
     s.src = '//ajax.googleapis.com/webfonts.js';
     document.head.appendChild(s);
-
+    
     ```
 
     - Requirements
