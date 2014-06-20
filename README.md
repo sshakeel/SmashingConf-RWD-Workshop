@@ -175,9 +175,9 @@ var guardian = {
 - viewport meta tag
   - layout = visual (mobile)
 ```
-@viewport {...}
+@viewport {...}   //(coming soon)
 ``` 
-(coming soon - google this)
+
 
 ### Media Types
 - print, screen, etc
