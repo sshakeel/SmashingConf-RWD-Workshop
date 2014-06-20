@@ -300,11 +300,14 @@ Most stuff taken from the presentation during the main conference
   - Provide control over font loading
   - WebFontLoader
     
+    *traditional way*
+
     ```html
 
-	<del> <link rel="stylesheet" href="/myfonts.css"> </del>
+	<link rel="stylesheet" href="/myfonts.css">
 
     ```
+   *WebFontLoader*
 
     ```javascript
 
